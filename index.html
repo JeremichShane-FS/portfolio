@@ -1,0 +1,307 @@
+<!-- Shane Jeremich
+October 22nd, 2023
+4.5 Portfolio Page -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <main>
+    <!-- HEADER -->
+    <header class="text-center bg-black fixed -top-0 w-full z-10">
+      <nav class="flex justify-between items-center py-8 px-2 xl:px-0 w-full sm:w-4/5 mx-auto">
+        <a href="#"><img src="img/svg/sj-logo.svg" alt="sj-logo" class="w-16" /></a>
+        <ul class="flex">
+          <li class="mr-4"><a href="#about-me"
+              class="text-white font-bold text-2xl transition-colors duration-200 hover:text-blue-800">About</a></li>
+          <li class="mr-4"><a href="#projects"
+              class="text-white font-bold text-2xl transition-colors duration-200 hover:text-blue-800">Projects</a></li>
+          <li class="mr-4"><a href="#skills"
+              class="text-white font-bold text-2xl transition-colors duration-200 hover:text-blue-800">Skills</a></li>
+          <li><a href="#contact"
+              class="text-white font-bold text-2xl transition-colors duration-200 hover:text-blue-800">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- HERO -->
+    <section class="border-black border-solid border-4 my-12 mx-auto shadow-md flex w-full sm:w-4/5 mx-auto">
+      <div class="w-full bg-black p-12">
+        <img src="img/sj-high-res.webp" alt="Shane Jeremich Web Developer" class="m-auto">
+      </div>
+    </section>
+
+    <!-- ABOUT ME -->
+    <section
+      class="bg-gray-200 border-black border-solid border-4 my-12 mx-auto shadow-md flex w-full sm:w-4/5 mx-auto">
+      <div class="flex flex-col  xl:flex-row">
+        <h2 class="section-labels" id="about-me">About Me</h2>
+
+        <img src="https://is.gd/8pk1I3" alt="image of computer with HTML code"
+          class="w-full xl:w-6/6 object-cover order-1 xl:order-2" />
+        <div>
+          <img src="img/profile.webp" alt="Shane Jeremich profile picture"
+            class="w-1/4 rounded-full mx-auto my-20 xl:my10" />
+          <span class="block w-max text-2xl xl:text-3xl 2xl:text-5xl my-20 xl:my-12 mx-auto">
+            <h1>Hi there 👋</h1>
+            <h1>
+              My name is <strong>Shane Jeremich</strong>
+            </h1>
+          </span>
+
+          <div class="py-o px-20">
+            <p class="mb-8">
+              As an ambitious web developer, I bring a problem-solving approach and a strong technology skill set to
+              the
+              web development process. With a solid foundation from Bloom Institute of Technology and a continued
+              pursuit
+              of a Bachelor of Science Degree in Web Development at Full Sail University, I am passionate about
+              contributing to the success of dynamic teams.</p>
+            <p class="mb-8">During my certification program, I spearheaded diverse projects, collaborating with multiple
+              teams, and
+              working on everything from front-end to back-end development. I have a proven track record of
+              effectively
+              communicating with teams to understand web marketing needs and crafting interfaces that precisely meet
+              specifications.</p>
+            <p class="mb-8">I am currently seeking opportunities as an intern, apprentice, or junior web developer, with
+              a focus on
+              front-end or full-stack development. I am excited to discuss how I can bring my skills and enthusiasm to
+              contribute to your company's success. Please feel free to reach out to me for further discussions.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section
+      class="bg-gray-200 border-black border-solid border-4 my-12 mx-auto shadow-md flex w-full sm:w-4/5 mx-auto">
+      <h2 class="section-labels" id="projects">Projects</h2>
+      <div class="flex flex-wrap justify-center mt-24 mx-auto mb-12">
+
+        <div
+          class="bg-white rounded-md shadow-md m-4 w-80 cursor-pointer transition-transform duration-300 flex flex-col flex-wrap items-center text-center p-4 hover:scale-110">
+          <a href="https://www.shanejeremich.com" target="_blank" rel="noopener noreferrer">
+            <div class="project">
+              <img src="img/projects/shanejeremich.webp" alt="My Portfolio"
+                class="border-blue-800 w-52 h-24 my-0 mx-auto rounded-md transition-transform duration-300 hover:scale-110">
+              <div>
+                <h3 class="text-2xl my-4 mx-0">My Portfolio</h3>
+                <p class="text-base my-2 mx-0">Welcome to my web developer portfolio, hosted at www.shanejeremich.com.
+                  Here, you'll find a
+                  comprehensive collection of
+                  information about me, my professional journey, my resume, my diverse range of projects, and convenient
+                  ways to get in
+                  touch with me. </p>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div
+          class="bg-white rounded-md shadow-md m-4 w-80 cursor-pointer transition-transform duration-300 flex flex-col flex-wrap items-center text-center p-4 hover:scale-110">
+          <a href="https://sjeremich23.github.io/Trillo/" target="_blank" rel="noopener noreferrer">
+            <div class="project">
+              <img src="img/projects/trillo.webp" alt="Trillo"
+                class="border-blue-800 w-52 h-24 my-0 mx-auto rounded-md transition-transform duration-300 hover:scale-110">
+              <div>
+                <h3 class="text-2xl my-4 mx-0">Trillo</h3>
+                <p class="text-base my-2 mx-0">Introducing a versatile template layout designed for seamless hotel,
+                  flight, car rental, and tour
+                  searches. This
+                  showcase exemplifies user ratings, stunning hotel imagery, and captivating descriptions, highlighting
+                  a
+                  rich array of
+                  CSS/SASS styles. Crafted exclusively with HTML and CSS/SASS, this template is a testament to elegant
+                  design and smooth
+                  functionality.</p>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div
+          class="bg-white rounded-md shadow-md m-4 w-80 cursor-pointer transition-transform duration-300 flex flex-col flex-wrap items-center text-center p-4 hover:scale-110">
+          <a href="https://codepen.io/shanejeremich/pen/LYqYXNg" target="_blank" rel="noopener noreferrer">
+            <div class="project">
+              <img src="img/projects/fan-page.webp" alt="Fan Page"
+                class="border-blue-800 w-52 h-24 my-0 mx-auto rounded-md transition-transform duration-300 hover:scale-110">
+              <div>
+                <h3 class="text-2xl my-4 mx-0">My Fan Page</h3>
+                <p class="text-base my-2 mx-0">Welcome to my fan page dedicated to the legendary John Wick film series.
+                  Join me as I delve into the
+                  world of John Wick
+                  and passionately explore why this iconic franchise has earned its place among my all-time favorite
+                  movies. </p>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div
+          class="bg-white rounded-md shadow-md m-4 w-80 cursor-pointer transition-transform duration-300 flex flex-col flex-wrap items-center text-center p-4 hover:scale-110">
+          <a href="https://landing-page-shanejeremich.vercel.app/" target="_blank" rel="noopener noreferrer">
+            <div class="project">
+              <img src="img/projects/landingpage.webp" alt="Landing Page"
+                class="border-blue-800 w-52 h-24 my-0 mx-auto rounded-md transition-transform duration-300 hover:scale-110">
+              <div>
+                <h3 class="text-2xl my-4 mx-0">Landing Page</h3>
+                <p class="text-base my-2 mx-0">This challenge from Frontend Mentor was a great opportunity to put my
+                  skills to the test. I set out
+                  to replicate the
+                  provided landing page design as closely as possible, striving to capture the essence of the original
+                  concept. This task
+                  allowed me to further refine my frontend development abilities and attention to detail.</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- SKILLS -->
+    <section
+      class="bg-gray-200 border-black border-solid border-4 my-12 mx-auto shadow-md flex w-full sm:w-4/5 mx-auto">
+      <div class="skills">
+        <h2 class="section-labels" id="skills">Skills & Tech</h2>
+        <ul class="skills__list">
+          <li><img alt="HTML5 badge"
+              src="https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white" />
+          </li>
+          <li><img alt="CSS3 badge"
+              src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white" />
+          </li>
+          <li><img alt="JavaScript badge"
+              src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logoWidth=40&logo=javascript&logoColor=%23F7DF1E" />
+          </li>
+          <li><img alt="SASS badge"
+              src="https://img.shields.io/badge/SASS%20-hotpink.svg?&style=for-the-badge&logo=SASS&logoColor=white" />
+          </li>
+          <li><img alt="React badge"
+              src="https://img.shields.io/badge/react%20-%2320232a.svg?&style=for-the-badge&logo=react&logoColor=%2361DAFB" />
+          </li>
+          <li><img alt="Webpack badge"
+              src="https://img.shields.io/badge/webpack%20-%238DD6F9.svg?&style=for-the-badge&logo=webpack&logoColor=black" />
+          </li>
+          <li><img alt="Express.js badge"
+              src="https://img.shields.io/badge/express.js%20-%23404d59.svg?&style=for-the-badge" /></li>
+          <li><img alt="NodeJS badge"
+              src="https://img.shields.io/badge/node.js%20-%2343853D.svg?&style=for-the-badge&logo=node.js&logoColor=white" />
+          </li>
+          <li><img alt="GitHub badge"
+              src="https://img.shields.io/badge/github%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white" />
+          </li>
+          <li><img alt="VS Code badge"
+              src="https://img.shields.io/badge/-VS%20Code-007ACC?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" />
+          </li>
+          <li><img alt="Adobe Photoshop badge"
+              src="https://img.shields.io/badge/adobe%20photoshop%20-%2331A8FF.svg?&style=for-the-badge&logo=adobe%20photoshop&logoColor=white" />
+          </li>
+          <li><img alt="Heroku badge"
+              src="https://img.shields.io/badge/heroku%20-%23430098.svg?&style=for-the-badge&logo=heroku&logoColor=white" />
+          </li>
+          <li><img alt="Vercel badge"
+              src="https://img.shields.io/badge/vercel%20-%23000000.svg?&style=for-the-badge&logo=vercel&logoColor=white" />
+          </li>
+          <li><img alt="Google Ninja badge"
+              src="https://shanejeremich.com/static/media/google-ninja.222fc2d4c2db00407f7a.webp" class="ninja" />
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section
+      class="bg-gray-200 border-black border-solid border-4 my-12 mx-auto shadow-md flex w-full sm:w-4/5 mx-auto">
+      <h2 class="section-labels--blue" id="contact">Contact</h2>
+
+      <div class="contact" id="contact">
+        <header class="contact__header">
+          <h1>Lets get together and create some stuff</h1>
+          <h2>Message me your ideas and I'll get back to you right away</h2>
+        </header>
+
+        <form action="#" class="contact__form" id="contact-form" method="post" accept-charset="utf-8">
+
+          <input type="text" name="name" placeholder="Name" class="contact__form--name" required />
+          <input type="email" name="email" placeholder="Email" class="contact__form--email" required />
+          <input type="text" name="subject" placeholder="Subject" class="contact__form--subject" required />
+          <textarea type="text" name="message" placeholder="Message" class="contact__form--message" required cols="30"
+            rows="10"></textarea>
+
+          <div class="actions">
+            <button class="btn" id="btn">Send message</button>
+            <button class="btn" type="reset">Clear Form</button>
+          </div>
+
+        </form>
+
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer
+      class="bg-black border-black border-solid border-4 my-12 mx-auto shadow-md flex w-full sm:w-4/5 mx-auto footer">
+      <div class="footer__social">
+        <a href="https://github.com/sjeremich23/" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+          <svg class="footer__social--github" viewBox="0 0 72 72">
+            <path
+              d="M35.9985,13 C22.746,13 12,23.7870921 12,37.096644 C12,47.7406712 18.876,56.7718301 28.4145,59.9584121 C29.6145,60.1797862 30.0525,59.4358488 30.0525,58.7973276 C30.0525,58.2250681 30.0315,56.7100863 30.0195,54.6996482 C23.343,56.1558981 21.9345,51.4693938 21.9345,51.4693938 C20.844,48.6864054 19.2705,47.9454799 19.2705,47.9454799 C17.091,46.4500754 19.4355,46.4801943 19.4355,46.4801943 C21.843,46.6503662 23.1105,48.9634994 23.1105,48.9634994 C25.2525,52.6455377 28.728,51.5823398 30.096,50.9649018 C30.3135,49.4077535 30.9345,48.3460615 31.62,47.7436831 C26.2905,47.1352808 20.688,45.0691228 20.688,35.8361671 C20.688,33.2052792 21.6225,31.0547881 23.1585,29.3696344 C22.911,28.7597262 22.0875,26.3110578 23.3925,22.9934585 C23.3925,22.9934585 25.4085,22.3459017 29.9925,25.4632101 C31.908,24.9285993 33.96,24.6620468 36.0015,24.6515052 C38.04,24.6620468 40.0935,24.9285993 42.0105,25.4632101 C46.5915,22.3459017 48.603,22.9934585 48.603,22.9934585 C49.9125,26.3110578 49.089,28.7597262 48.8415,29.3696344 C50.3805,31.0547881 51.309,33.2052792 51.309,35.8361671 C51.309,45.0917119 45.6975,47.1292571 40.3515,47.7256117 C41.2125,48.4695491 41.9805,49.9393525 41.9805,52.1877301 C41.9805,55.4089489 41.9505,58.0067059 41.9505,58.7973276 C41.9505,59.4418726 42.3825,60.1918338 43.6005,59.9554002 C53.13,56.7627944 60,47.7376593 60,37.096644 C60,23.7870921 49.254,13 35.9985,13"
+              fill="#fff"></path>
+          </svg>
+        </a>
+
+        <a href="http://linkedin.com/in/shanejeremich/" target="_blank" rel="noopener noreferrer" aria-label="Linkedin">
+          <svg class="footer__social--linkedin" viewBox="0 0 72 72">
+            <path
+              d="M62,62 L51.315625,62 L51.315625,43.8021149 C51.315625,38.8127542 49.4197917,36.0245323 45.4707031,36.0245323 C41.1746094,36.0245323 38.9300781,38.9261103 38.9300781,43.8021149 L38.9300781,62 L28.6333333,62 L28.6333333,27.3333333 L38.9300781,27.3333333 L38.9300781,32.0029283 C38.9300781,32.0029283 42.0260417,26.2742151 49.3825521,26.2742151 C56.7356771,26.2742151 62,30.7644705 62,40.051212 L62,62 Z M16.349349,22.7940133 C12.8420573,22.7940133 10,19.9296567 10,16.3970067 C10,12.8643566 12.8420573,10 16.349349,10 C19.8566406,10 22.6970052,12.8643566 22.6970052,16.3970067 C22.6970052,19.9296567 19.8566406,22.7940133 16.349349,22.7940133 Z M11.0325521,62 L21.769401,62 L21.769401,27.3333333 L11.0325521,27.3333333 L11.0325521,62 Z"
+              fill="#FFFFFF"></path>
+          </svg>
+        </a>
+
+        <a href="https://www.facebook.com/shanejeremich/" target="_blank" rel="noopener noreferrer"
+          aria-label="Facebook">
+          <svg class="footer__social--facebook" viewBox="0 0 72 72">
+            <path
+              d="M60.4641463,13.4173171 L60.4641463,22.7278049 L54.9382927,22.7421951 C50.6068293,22.7421951 49.7721951,24.8 49.7721951,27.807561 L49.7721951,34.4702439 L60.09,34.4702439 L58.7517073,44.8887805 L49.7721951,44.8887805 L49.7721951,72 L39.0097317,72 L39.0097317,44.8887805 L30,44.8887805 L30,34.4702439 L39.0097317,34.4702439 L39.0097317,26.7858537 C39.0097317,17.8639024 44.4478049,13 52.42,13 C56.2204634,13 59.5,13.2878049 60.4641463,13.4173171 Z"
+              fill="#fff"></path>
+          </svg>
+        </a>
+
+        <a href="https://twitter.com/shanejeremich" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+          <svg class="footer__social--twitter" viewBox="0 0 72 72">
+            <path
+              d="M55.0865399,25.7148754 C55.7080938,39.5659738 45.3799204,55.0092879 27.0953855,55.0092879 C21.5344243,55.0092879 16.3579537,53.3781513 12,50.5841073 C17.2236474,51.1997641 22.4390388,49.7514374 26.5787999,46.505676 C22.2703818,46.4266549 18.6330532,43.5795371 17.3805101,39.6674038 C18.9231903,39.9622586 20.4411028,39.876161 21.8269202,39.4999263 C17.090373,38.5469556 13.8222026,34.2809966 13.9283503,29.7190034 C15.2563762,30.4561404 16.7754681,30.8996019 18.3900929,30.9491375 C14.0038331,28.0194604 12.7619048,22.2285125 15.3424738,17.8021524 C20.1981424,23.7605779 27.4539289,27.6809671 35.6390977,28.0925844 C34.2037447,21.9312988 38.8766033,16 45.232493,16 C48.0654578,16 50.6247973,17.1947516 52.4198732,19.1089488 C54.6631284,18.6678461 56.7707504,17.8481498 58.6731535,16.7194457 C57.9383754,19.019313 56.3768244,20.9500221 54.3435058,22.1671827 C56.3355447,21.9301194 58.2332301,21.4005602 60,20.6174259 C58.68023,22.592953 57.0101725,24.3266991 55.0865399,25.7148754"
+              fill="#FFFFFF"></path>
+          </svg>
+        </a>
+
+        <a href="https://youtube.com/channel/UCmDn7ZuKkjypPYKXt1r65Lw" target="_blank" rel="noopener noreferrer"
+          aria-label="YouTube">
+          <svg class="footer__social--youtube" viewBox="0 0 72 72">
+            <path
+              d="M31.044,42.269916 L31.0425,28.6877416 L44.0115,35.5022437 L31.044,42.269916 Z M59.52,26.3341627 C59.52,26.3341627 59.0505,23.003199 57.612,21.5363665 C55.7865,19.610299 53.7405,19.6012352 52.803,19.4894477 C46.086,19 36.0105,19 36.0105,19 L35.9895,19 C35.9895,19 25.914,19 19.197,19.4894477 C18.258,19.6012352 16.2135,19.610299 14.3865,21.5363665 C12.948,23.003199 12.48,26.3341627 12.48,26.3341627 C12.48,26.3341627 12,30.2467232 12,34.1577731 L12,37.8256098 C12,41.7381703 12.48,45.6492202 12.48,45.6492202 C12.48,45.6492202 12.948,48.9801839 14.3865,50.4470165 C16.2135,52.3730839 18.612,52.3126583 19.68,52.5135736 C23.52,52.8851913 36,53 36,53 C36,53 46.086,52.9848936 52.803,52.4954459 C53.7405,52.3821478 55.7865,52.3730839 57.612,50.4470165 C59.0505,48.9801839 59.52,45.6492202 59.52,45.6492202 C59.52,45.6492202 60,41.7381703 60,37.8256098 L60,34.1577731 C60,30.2467232 59.52,26.3341627 59.52,26.3341627 L59.52,26.3341627 Z"
+              fill="#FFFFFF"></path>
+          </svg>
+        </a>
+      </div>
+      <a href="#">
+        <img src="img/b&wShane.webp" alt="Shane Jeremich | Web Developer" class="footer__logo" />
+      </a>
+      <p class="footer__text" id="footer__text"></p>
+    </footer>
+
+  </main>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
